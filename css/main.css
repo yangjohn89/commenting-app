@@ -1,0 +1,33 @@
+.container {
+	font-family: 'PT Serif', serif;
+}
+.container h1 {
+	text-align: center;
+	color: #5bc0de;
+}
+.col-sm-6 {
+	margin: 20px;
+}
+.btn {
+	width: 120px;
+	margin-left: 10%;
+}
+.btn p {
+	font-size: 20px;
+	margin: 0;
+}
+.list-group {
+	list-style-type: square;
+	margin: 20px;
+}
+.list-group-item:nth-child(2n) {
+	background-color: #ccffff;
+}
+.list-group-item:nth-child(2n+1) {
+	background-color: #bfff80;
+}
+
+#currentdateId {
+	text-align: right;
+	font-size: 12px;
+}
